@@ -1,10 +1,11 @@
+
 <?php
 
 include "../framework/aplication/Database.php";
 
 $option = array(
 	"fields"=>"id, email, username, password, status",
-	"limit"=>"0,3",
+	"limit"=>"",
 	"order"=>"usuarios.id ASC"
 
 	);
